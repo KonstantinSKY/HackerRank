@@ -5,7 +5,7 @@ import numpy
 if __name__ == '__main__':
     n, m = map(int, input().split())
     arr = []
-    for _ in range(m):
+    for _ in range(n):
         arr.append(list(map(int, input().split())))
 
     my_arr = numpy.array(arr)
